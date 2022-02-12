@@ -1,0 +1,11 @@
+@import url("base/global.css");
+
+@import url("components/header.css");
+
+@import url("pages/home.css");
+
+@media screen and (max-width: 48rem) {
+  .wrapper {
+    background: red;
+  }
+}
