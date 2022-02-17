@@ -1,3 +1,9 @@
 :root {
   --font-weight-bold: 700;
 }
+
+body {
+  background: var(--color-primary-100);
+  min-height: 100%;
+  height: unset;
+}
