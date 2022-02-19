@@ -49,7 +49,7 @@
 }
 
 .main-footer {
-  background: var(--color-primary-200);
+  background: var(--color-warning-200);
   color: var(--color-neutral-800);
   display: flex;
   flex-wrap: wrap;

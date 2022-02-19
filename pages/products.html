@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://develop--sicomponentlibrary.netlify.app/styles/main.css"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Products</title>
+  </head>
+  <body>
+    <header class="e-header">
+      <div class="main-nav">
+        <a href="/index.html" class="header-1 e-logo">GRU</a>
+        <nav class="main-nav-items">
+          <a href="#" class="main-nav-item"><i class="bx bx-user"></i></a>
+          <a href="#" class="main-nav-item"><i class="bx bx-search"></i></a>
+          <a href="#" class="main-nav-item"><i class="bx bx-heart"></i></a>
+          <a href="#" class="main-nav-item"><i class="bx bx-cart"></i></a>
+        </nav>
+      </div>
+      <ul class="category-list">
+        <li class="category-item">Ladies</li>
+        <li class="category-item">Men</li>
+        <li class="category-item">Kids</li>
+        <li class="category-item">Shoes</li>
+        <li class="category-item">Bagpacks</li>
+        <li class="category-item">Accesories</li>
+        <li class="category-item">Snowboards</li>
+      </ul>
+    </header>
+    <main class="wrapper">
+      <aside class="aside-filters">
+        <div class="aside-heading">
+          <h2 class="header-2">Filters</h2>
+          <div>Clear</div>
+        </div>
+        <div class="aside-section">
+          <h2 class="header-2">Price</h2>
+          <input type="range" min="100" max="10000" step="10" id="prices" />
+        </div>
+        <div class="aside-section">
+          <h2 class="header-2">Category</h2>
+          <div class="aritcle-input-wrapper">
+            <input type="checkbox" name="category" id="shirts" checked />
+            <label for="shirts">Shirts</label>
+          </div>
+          <div class="aritcle-input-wrapper">
+            <input type="checkbox" name="category" id="tshirts" />
+            <label for="tshirts">T-shirts</label>
+          </div>
+        </div>
+        <div class="aside-section">
+          <h2 class="header-2">Rating</h2>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="rating" id="fourStars" checked />
+            <label for="fourStars">4 stars & above</label>
+          </div>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="rating" id="threeStars" />
+            <label for="threeStars">3 stars & above</label>
+          </div>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="rating" id="twoStars" />
+            <label for="twoStars">2 stars & above</label>
+          </div>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="rating" id="oneStar" />
+            <label for="oneStar">1 stars & above</label>
+          </div>
+        </div>
+        <div class="aside-section">
+          <h2 class="header-2">Sort by</h2>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="sortPrice" id="lowToHigh" checked />
+            <label for="lowToHigh">Price - Low to High</label>
+          </div>
+          <div class="aritcle-input-wrapper">
+            <input type="radio" name="sortPrice" id="highToLow" />
+            <label for="highToLow">Price - High to Low</label>
+          </div>
+        </div>
+      </aside>
+      <section class="products-section">
+        <h1 class="header-1">Products</h1>
+        <div id="products-list" class="products">
+          <div class="product-card">
+            <div class="img-container product-img-wrapper">
+              <img
+                src="https://res.cloudinary.com/yashwant9263/image/upload/v1645121952/Camp/ecommerce/home/hiking_jacket.webp"
+                loading="lazy"
+                alt="product image"
+              />
+              <div class="wishlist-icon"><i class="bx bxs-heart"></i></div>
+            </div>
+            <div class="card-content">
+              <div class="small-text product-caption">Trending</div>
+              <h3 class="header-3 bold">Hiking Jacket</h3>
+              <strong class="small-text bold">Rs.1,200.00</strong>
+              <div class="small-text medium">New Arrival</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="main-footer">
+      <div class="footer-item shop-links">
+        <h3 class="header-2">Shop</h3>
+        <ul>
+          <li><a class="small-text">Men</a></li>
+          <li><a class="small-text">Ladies</a></li>
+          <li><a class="small-text">Kids</a></li>
+          <li><a class="small-text">Accesories</a></li>
+        </ul>
+      </div>
+      <div class="footer-item help-links">
+        <h3 class="header-2">Help</h3>
+        <ul>
+          <li><a class="small-text">Customer Service</a></li>
+          <li><a class="small-text">Contact</a></li>
+          <li><a class="small-text">Find a store</a></li>
+          <li><a class="small-text">Legal & Privacy</a></li>
+        </ul>
+      </div>
+      <div class="footer-item socials-links">
+        <a href="https://twitter.com/yashwant0098"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+        <a href="https://www.instagram.com/yashwant0098/"
+          ><i class="bx bxl-instagram-alt"></i
+        ></a>
+        <a href="https://github.com/yash9263"><i class="bx bxl-github"></i></a>
+      </div>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>

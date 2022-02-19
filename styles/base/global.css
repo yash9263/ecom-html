@@ -3,7 +3,7 @@
 }
 
 body {
-  background: var(--color-primary-100);
+  background: var(--color-warning-100);
   min-height: 100%;
   height: unset;
 }
