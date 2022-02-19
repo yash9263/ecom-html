@@ -1,0 +1,169 @@
+.cart-main {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0px 32px 24px;
+}
+
+.cart-heading {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.cart-wrapper {
+  display: grid;
+  grid-template-columns: 1.75fr 1.25fr;
+  gap: 24px;
+}
+
+@media screen and (max-width: 48rem) {
+  .cart-main {
+    padding: 0px 16px 24px;
+  }
+  .cart-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+.cart-item {
+  margin-bottom: 24px;
+}
+
+.cart-card {
+  display: flex;
+  position: relative;
+}
+
+.cart-img-wrapper {
+  max-width: 136px;
+  margin-right: 24px;
+}
+
+.cart-img-wrapper img {
+  aspect-ratio: 10 / 14;
+}
+
+.cart-card-content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 8px;
+}
+
+.product-info h3 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 32px;
+}
+.product-desc {
+  margin-top: 16px;
+  margin-right: 16px;
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-semi-bold);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-desc-item {
+  display: flex;
+  flex: 1 0 50%;
+}
+@media screen and (max-width: 48rem) {
+  .product-desc-item {
+    flex: 1 100%;
+  }
+}
+.product-desc-item span {
+  flex: 1 0;
+}
+
+.remove-btn {
+  position: absolute;
+  right: 0px;
+  top: 8px;
+}
+
+.remove-btn i {
+  font-size: 1.25rem;
+}
+
+.cart-card-footer {
+  display: flex;
+  padding-top: 16px;
+}
+
+.cart-card-footer i {
+  font-size: 1.5rem;
+}
+
+.cart-card-footer .btn {
+  padding: 0;
+}
+
+.product-quantity {
+  display: flex;
+  gap: 8px;
+  margin-left: 12px;
+}
+
+.product-quantity input {
+  max-width: 48px;
+  padding: 0 8px;
+  background: inherit;
+  border: 1px solid;
+  outline: 0;
+}
+
+.price-wrapper {
+  background: var(--color-warning-200);
+  padding: 24px;
+  position: sticky;
+  top: 16px;
+}
+
+.btn {
+  border-radius: 2px;
+}
+
+.promo-input-wrapper {
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+}
+@media screen and (max-width: 34.37rem) {
+  .promo-input-wrapper {
+    flex-wrap: wrap;
+  }
+}
+
+.promocode-wrapper .promo-input {
+  padding: 8px 12px;
+  flex: 1 0;
+  background: inherit;
+  border: 1px solid;
+  outline: none;
+}
+
+.order-details {
+  margin-top: 32px;
+}
+
+.order-info {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-bottom: 12px;
+}
+
+.total-price-wrapper {
+  font-weight: var(--font-weight-bold);
+  margin-top: 24px;
+  border-top: 1.5px solid;
+  padding-top: 16px;
+  margin-bottom: 16px;
+}
+
+.checkout-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+}
