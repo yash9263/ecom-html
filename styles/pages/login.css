@@ -1,0 +1,31 @@
+.login-main {
+  max-width: 26rem;
+  padding: 16px 32px;
+  margin: 0 auto;
+}
+.login-heading {
+  padding-bottom: 24px;
+  text-align: center;
+}
+.form-input-wrapper {
+  margin-bottom: 12px;
+}
+.form-input-label {
+}
+.form-input {
+  width: 100%;
+  margin-top: 8px;
+  background: initial;
+  border: 1px solid;
+}
+.forgot-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.login-btn-wrapper {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: stretch;
+}
