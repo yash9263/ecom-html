@@ -35,6 +35,7 @@ const productCard = (title, src) => `
         <h3 class="header-3 bold">${title}</h3>
         <strong class="small-text bold">Rs.1,200.00</strong>
         <div class="small-text medium">New Arrival</div>
+        <button class="btn cart-btn">Add to Cart</button>
     </div>
 </div>
 `;

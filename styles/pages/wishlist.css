@@ -1,0 +1,11 @@
+.wishlist-main {
+  max-width: 1024px;
+  padding: 12px 32px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 34.37rem) {
+  .wishlist-main {
+    padding: 12px 0px;
+  }
+}
