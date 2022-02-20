@@ -28,8 +28,18 @@
 .item-wrapper .img-container {
   flex: 1 0 0%;
 }
+
 .sq-img img {
   aspect-ratio: 8 / 8;
+}
+
+@media screen and (max-width: 34.37rem) {
+  .mobile-img img {
+    aspect-ratio: 8 / 10;
+  }
+  .sq-img img {
+    aspect-ratio: 8 / 18;
+  }
 }
 
 .item-content {
