@@ -12,10 +12,11 @@
       rel="stylesheet"
       href="https://develop--sicomponentlibrary.netlify.app/styles/main.css"
     />
-    <link rel="stylesheet" href="styles/main.css" />
-    <title>Ecommerce</title>
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Sign Up</title>
   </head>
   <body>
+    <!-- Header -->
     <header class="e-header">
       <div class="main-nav">
         <a href="/index.html" class="header-1 e-logo">GRU</a>
@@ -29,7 +30,7 @@
           <a href="/pages/wishlist.html" class="main-nav-item"
             ><i class="bx bx-heart"></i
           ></a>
-          <a href="pages/cart.html" class="main-nav-item"
+          <a href="/pages/cart.html" class="main-nav-item"
             ><i class="bx bx-cart"></i
           ></a>
         </nav>
@@ -44,69 +45,44 @@
         <li class="category-item">Snowboards</li>
       </ul>
     </header>
-    <main class="main-cont">
-      <div class="item-wrapper">
-        <div class="img-container mobile-img">
-          <img
-            src="https://res.cloudinary.com/yashwant9263/image/upload/v1644669240/Camp/ecommerce/home/heroImage0.jpg"
-            alt="hero-image"
-            loading="eager"
-          />
-        </div>
-        <div class="bg-gradient"></div>
-        <div class="item-content">
-          <h1 class="header-1">Secure your next adventure</h1>
-          <p class="body">
-            Explore accesories to find all the equipments you need for your next
-            adventure.
-          </p>
-          <button class="btn btn-light">Explore</button>
+    <!-- Main -->
+    <main class="login-main">
+      <h1 class="header-1 login-heading">Sign Up</h1>
+      <div class="form-input-wrapper">
+        <label class="medium form-input-label" for="">Name</label>
+        <input class="form-input" type="text" name="" id="" />
+      </div>
+      <div class="form-input-wrapper">
+        <label class="medium form-input-label" for="">Email*</label>
+        <input class="form-input" type="email" name="" id="" />
+      </div>
+      <div class="form-input-wrapper">
+        <label class="medium form-input-label" for="">Password*</label>
+        <input class="form-input" type="password" name="" id="" />
+      </div>
+      <div class="form-input-wrapper">
+        <label class="medium form-input-label" for="">Date of Birth</label>
+        <input
+          class="form-input"
+          type="text"
+          name=""
+          id=""
+          placeholder="DD / MM / YYYY"
+        />
+      </div>
+      <div class="forgot-wrapper">
+        <div>
+          <label for="">
+            <input type="checkbox" name="" id="" />
+            I accept <a href="">the terms</a>
+          </label>
         </div>
       </div>
-      <div class="item-wrapper">
-        <div class="img-container sq-img">
-          <img
-            src="https://res.cloudinary.com/yashwant9263/image/upload/v1644670597/Camp/ecommerce/home/wintergGoup_cppljk.jpg"
-            alt="content image"
-            loading="lazy"
-          />
-        </div>
-        <div class="img-container sq-img">
-          <img
-            src="https://res.cloudinary.com/yashwant9263/image/upload/v1644670094/Camp/ecommerce/home/Equipments_hl1qar.jpg"
-            alt="content image"
-            loading="lazy"
-          />
-        </div>
-        <div class="bg-gradient"></div>
-        <div class="item-content">
-          <h1 class="header-1">Winter is Here</h1>
-          <p class="body">
-            Shop for clothes, shoes and many more for your winter adventures.
-          </p>
-          <button class="btn btn-light">shop now</button>
-        </div>
-      </div>
-      <div class="item-wrapper">
-        <div class="img-container mobile-img">
-          <img
-            src="https://res.cloudinary.com/yashwant9263/image/upload/v1644670597/Camp/ecommerce/home/snowboards_juq2cg.jpg"
-            alt="content image"
-            loading="lazy"
-          />
-        </div>
-        <div class="bg-gradient"></div>
-        <div class="item-content">
-          <h1 class="header-1">Skis</h1>
-          <p class="body">
-            Shop our huge selection of Skis! Find the best ski equipments and
-            buy at best price your skis products.
-          </p>
-          <button class="btn btn-light">shop now</button>
-        </div>
-      </div>
-      <div>
-        <!-- TODO add products -->
+      <div class="login-btn-wrapper">
+        <button class="btn btn-dark">Sign up</button>
+        <button class="btn btn-outline-dark">
+          <a href="../pages/login.html">Sign in</a>
+        </button>
       </div>
     </main>
     <footer class="main-footer">
@@ -138,6 +114,5 @@
         <a href="https://github.com/yash9263"><i class="bx bxl-github"></i></a>
       </div>
     </footer>
-    <script src="index.js"></script>
   </body>
 </html>
