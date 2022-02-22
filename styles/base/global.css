@@ -1,6 +1,7 @@
 :root {
   --font-weight-bold: 700;
   --border-radius: 2px;
+  background: var(--color-warning-100);
 }
 
 body {

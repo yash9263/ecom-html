@@ -17,6 +17,7 @@
   margin-top: 8px;
   background: initial;
   border: 1px solid;
+  outline: 0;
 }
 .forgot-wrapper {
   display: flex;
